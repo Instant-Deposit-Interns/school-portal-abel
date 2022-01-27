@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     setTimeout(() => {
       verify.style.display = 'block';
-      window.location.assign('success.html');
+      window.location.assign('/success.html');
     }, 1000);
   };
 });

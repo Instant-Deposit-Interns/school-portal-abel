@@ -12,8 +12,6 @@ document.addEventListener('DOMContentLoaded', () => {
       .catch((err) => {
         console.log(err);
       });
-
-    // iframe.src = `/dashboard/${route}.html`;
   };
   getData();
 
