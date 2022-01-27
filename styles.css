@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(233, 233, 233);
+}
+
+#side-nav {
+  background-color: rgb(209, 209, 209);
+  height: 87vh;
+  display: grid;
+  grid-template-rows: auto auto auto;
+  align-content: center;
+}
+
+.side-bar-link {
+  cursor: pointer;
+}
+
+.side-bar-link:hover {
+  text-decoration-line: underline;
+  color: #0a58ca;
+}
