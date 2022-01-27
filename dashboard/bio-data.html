@@ -26,7 +26,83 @@
   </head>
   <body>
     <div class="container-fluid">
-      <h4>Bio-data</h4>
+      <div class="row justify-content-center">
+        <div class="col-9">
+          <h4>Bio-data</h4>
+          <form>
+            <div class="row">
+              <div class="input-field col">
+                <input
+                  type="text"
+                  name="surname"
+                  id="surname"
+                  class="validate"
+                  value="Doe"
+                  required
+                />
+                <label for="surname">Surname</label>
+              </div>
+              <div class="input-field col">
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  class="validate"
+                  value="John"
+                  required
+                />
+                <label for="firstname">Firstname</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col">
+                <input
+                  type="text"
+                  name="state"
+                  id="state"
+                  class="validate"
+                  required
+                />
+                <label for="state">State of Origin</label>
+              </div>
+              <div class="input-field col">
+                <input
+                  type="text"
+                  name="lga"
+                  id="lga"
+                  class="validate"
+                  required
+                />
+                <label for="lga">LGA</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col">
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  class="validate"
+                  placeholder="example@example.com"
+                  required
+                />
+                <label for="email">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col">
+                <textarea id="address" class="materialize-textarea"></textarea>
+                <label for="address">Address</label>
+              </div>
+            </div>
+            <div class="row">
+              <button class="btn waves-effect waves-light" type="submit">
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
     <!-- scripts -->
     <script
